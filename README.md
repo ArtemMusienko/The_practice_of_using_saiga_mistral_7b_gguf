@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
+
 ## The practice of using saiga_mistral_7b_gguf
 
 В данном репозитории представлен код с реализацией модели **saiga_mistral_7b_gguf**, обученная на основе этой **Open-Orca/Mistral-7B-OpenOrca**. 
