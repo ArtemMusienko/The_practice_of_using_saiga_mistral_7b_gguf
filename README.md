@@ -2,13 +2,15 @@
 
 ## The practice of using saiga_mistral_7b_gguf
 
-В данном репозитории представлен код с реализацией модели **[saiga_mistral_7b_gguf](https://huggingface.co/IlyaGusev/saiga_mistral_7b_gguf)**, обученная на основе этой модели **[Open-Orca/Mistral-7B-OpenOrca](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca)**. 
+[![ru](https://img.shields.io/badge/README_на_русском-2A2C39?style=for-the-badge&logo=github&logoColor=white)](README.ru.md)
 
-> При использовании этого кода настоятельно рекомендую использовать
-> **графический ускоритель T4** или мощнее.
+This repository contains code for implementing the **[saiga_mistral_7b_gguf](https://huggingface.co/IlyaGusev/saiga_mistral_7b_gguf)** model, which is based on the **[Open-Orca/Mistral-7B-OpenOrca](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca)** model. 
 
-Для работы с этим кодом нужно зарегистрироваться на **Hugging Face** и в настройках профиля получить свой токен, который будет использоваться в коде.
+> When using this code, I strongly recommend using
+> **T4 graphics accelerator** or more powerful.
 
-В своей работе я использую *8-битную* квантованную версию, но вы можете использовать и *4-битную*. На крайний случай подойдет и *2-битная*, но её результат работы может не удовлетворять.
+ To work with this code, you need to register on **Hugging Face** and get your token in the profile settings, which will be used in the code.
 
-> Для моего варианта кода подходит именно квантованная версия модели (**GGUF**)!
+ In my work, I use the *8-bit* quantized version, but you can also use the *4-bit*. In a pinch, you can use the *2-bit*, but the result may not be satisfactory.
+
+ > For my code, the quantized version of the model (**GGUF**) is suitable!
